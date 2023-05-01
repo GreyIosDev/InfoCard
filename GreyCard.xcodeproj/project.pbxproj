@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3869C24329B928C6009E450E /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3869C24229B928C6009E450E /* InfoView.swift */; };
+		3869C24529B9D011009E450E /* ComicNeue-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3869C24429B9D010009E450E /* ComicNeue-Bold.ttf */; };
 		3885C1E929B8E4980010F290 /* GreyCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885C1E829B8E4980010F290 /* GreyCardApp.swift */; };
 		3885C1EB29B8E4980010F290 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885C1EA29B8E4980010F290 /* ContentView.swift */; };
 		3885C1ED29B8E49A0010F290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3885C1EC29B8E49A0010F290 /* Assets.xcassets */; };
@@ -14,6 +16,7 @@
 		3885C1FA29B8E49A0010F290 /* GreyCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885C1F929B8E49A0010F290 /* GreyCardTests.swift */; };
 		3885C20429B8E49A0010F290 /* GreyCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885C20329B8E49A0010F290 /* GreyCardUITests.swift */; };
 		3885C20629B8E49A0010F290 /* GreyCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3885C20529B8E49A0010F290 /* GreyCardUITestsLaunchTests.swift */; };
+		3885C21429B8F2040010F290 /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3885C21329B8F2040010F290 /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3869C24229B928C6009E450E /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		3869C24429B9D010009E450E /* ComicNeue-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ComicNeue-Bold.ttf"; sourceTree = "<group>"; };
 		3885C1E529B8E4980010F290 /* GreyCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GreyCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3885C1E829B8E4980010F290 /* GreyCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyCardApp.swift; sourceTree = "<group>"; };
 		3885C1EA29B8E4980010F290 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,8 @@
 		3885C1FF29B8E49A0010F290 /* GreyCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GreyCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3885C20329B8E49A0010F290 /* GreyCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyCardUITests.swift; sourceTree = "<group>"; };
 		3885C20529B8E49A0010F290 /* GreyCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreyCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3885C21329B8F2040010F290 /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		3885C21529B8F7480010F290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +101,11 @@
 		3885C1E729B8E4980010F290 /* GreyCard */ = {
 			isa = PBXGroup;
 			children = (
+				3885C21529B8F7480010F290 /* Info.plist */,
+				3885C21229B8F17B0010F290 /* Fonts */,
 				3885C1E829B8E4980010F290 /* GreyCardApp.swift */,
 				3885C1EA29B8E4980010F290 /* ContentView.swift */,
+				3869C24229B928C6009E450E /* InfoView.swift */,
 				3885C1EC29B8E49A0010F290 /* Assets.xcassets */,
 				3885C1EE29B8E49A0010F290 /* Preview Content */,
 			);
@@ -125,6 +135,15 @@
 				3885C20529B8E49A0010F290 /* GreyCardUITestsLaunchTests.swift */,
 			);
 			path = GreyCardUITests;
+			sourceTree = "<group>";
+		};
+		3885C21229B8F17B0010F290 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3885C21329B8F2040010F290 /* Pacifico-Regular.ttf */,
+				3869C24429B9D010009E450E /* ComicNeue-Bold.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +250,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3869C24529B9D011009E450E /* ComicNeue-Bold.ttf in Resources */,
+				3885C21429B8F2040010F290 /* Pacifico-Regular.ttf in Resources */,
 				3885C1F029B8E49A0010F290 /* Preview Assets.xcassets in Resources */,
 				3885C1ED29B8E49A0010F290 /* Assets.xcassets in Resources */,
 			);
@@ -258,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3885C1EB29B8E4980010F290 /* ContentView.swift in Sources */,
+				3869C24329B928C6009E450E /* InfoView.swift in Sources */,
 				3885C1E929B8E4980010F290 /* GreyCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +441,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GreyCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreyCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +472,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"GreyCard/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GreyCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "\"\"";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
